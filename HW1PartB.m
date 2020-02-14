@@ -21,3 +21,6 @@ for i=1:NTrials
         NCorrect = NCorrect + 1;
     end
 end
+
+fprintf("Number of correctly decoded packets: %i\n", NCorrect);
+
