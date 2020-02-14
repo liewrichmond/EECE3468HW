@@ -4,7 +4,6 @@ NPackets = 100;
 NTrials = 100;
 
 P1 = 0.5;
-
 P0Given1 = 0.01;
 P1Given0 = 0.03;
 NCorrect = 0;
