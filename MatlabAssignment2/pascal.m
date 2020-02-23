@@ -1,5 +1,5 @@
 clear all
-Nx = 10000;
+Nx = 100000;
 nMatches = 0;
 Z = zeros(Nx, 1);
 for i=1:Nx
@@ -14,5 +14,7 @@ p = nMatches / Nx;
 k=1:Nx;
 Z_PMF=hist(Z,k)/Nx;
 stem(k,Z_PMF,'fill')
+xlabel('z');
+ylabel('Pz(z)');
 xlim([0 200])
 

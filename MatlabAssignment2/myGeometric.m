@@ -29,6 +29,8 @@ function [Y,P_k1] = myGeometric(Nx,p,k1,fig, verbose)
         k=1:1000;
         Y_PMF=hist(Y,k)/Nx;
         stem(k,Y_PMF,'fill')
+        xlabel('y');
+        ylabel('Py(y)');
         xlim([0 100])
     end
 end
